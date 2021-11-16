@@ -1,9 +1,15 @@
 <?php
+//development
+        // $host = '127.0.0.1';
+        // $db = 'dans';
+        // $user = 'root';
+        // $password = '';
+        // $charset = 'utf8mb4';
 
-        $host = '127.0.0.1';
-        $db = 'dans';
-        $user = 'root';
-        $password = '';
+        $host = 'remotemysql.com';
+        $db = '4lQQfKSKwt';
+        $user = '4lQQfKSKwt';
+        $password = '7lDSA5Ebnp';
         $charset = 'utf8mb4';
 
         $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
